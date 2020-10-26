@@ -41,7 +41,7 @@ commands = ['git remote add origin https://github.com/{login}/{foldername}.git',
 def deleting_itens():
     for item in delete_repos:
         for c in commands:
-        os.system(c)
+            os.system(c)
 
 
 
