@@ -11,8 +11,16 @@ g = Github(token)
 user = g.get_user()
 login = user.login
 
-def show_user():
-    print(login)
 
-if __name__ == "__main__":
+# Methods
+
+def main():
     show_user()
+
+# show user logged
+def show_user():
+    print(f'\n--------------------Login: {login} --------------------')
+
+# Main Python command method
+if __name__ == "__main__":
+    main()
